@@ -10,8 +10,3 @@ if table.find(TablePlace,game.PlaceId) then
 elseif game.PlaceId == 13772394625 or game.PlaceId == 14915220621 or game.PlaceId == 14732610803 or game.PlaceId ==  15264892126 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BladeBall.lua"))()
 else
-
-    getgenv().Key = "c4ba22dc1a0584e3fd928366"
-getgenv().OldBanana = false
-repeat task.wait() until game:IsLoaded()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoangthichchoixetang/Bananahubfreearceusx/main/Bananahub.lua"))()
